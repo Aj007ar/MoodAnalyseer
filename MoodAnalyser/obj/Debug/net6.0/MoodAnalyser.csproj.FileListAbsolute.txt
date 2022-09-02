@@ -1,0 +1,15 @@
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\bin\Debug\net6.0\MoodAnalyser.exe
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\bin\Debug\net6.0\MoodAnalyser.deps.json
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\bin\Debug\net6.0\MoodAnalyser.runtimeconfig.json
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\bin\Debug\net6.0\MoodAnalyser.dll
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\bin\Debug\net6.0\MoodAnalyser.pdb
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyser.csproj.AssemblyReference.cache
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyser.GeneratedMSBuildEditorConfig.editorconfig
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyser.AssemblyInfoInputs.cache
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyser.AssemblyInfo.cs
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyser.csproj.CoreCompileInputs.cache
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyser.dll
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\refint\MoodAnalyser.dll
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyser.pdb
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyser.genruntimeconfig.cache
+D:\BL\LinuxBatch-560\LFP-183-DotNet\MoodAnalyserGit\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\ref\MoodAnalyser.dll
