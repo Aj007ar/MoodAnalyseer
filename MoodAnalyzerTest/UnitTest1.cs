@@ -3,7 +3,7 @@ namespace MoodAnalyzerTest
 {
     public class Tests
     {
-
+        //Positive Test Case for Sad mood
         [Test]
         public void givenSadMessage_WhenAnalyse_ShouldReturnSad()
         {
@@ -12,6 +12,7 @@ namespace MoodAnalyzerTest
             string actual = Sadmood.MoodMessage();
             Assert.AreEqual(expected, actual);
         }
+        //Negative test case for Sad mood
         [Test]
         public void givenMessage_WhenHappy_ShouldReturnSad()
         {
@@ -20,6 +21,7 @@ namespace MoodAnalyzerTest
             string actual = Anymood.MoodMessage();
             Assert.AreEqual(expected, actual);
         }
+        //positive test case for Happy mood
         [Test]
         public void givenMessage_WhenHappy_ShouldReturnHappy()
         {
@@ -28,6 +30,7 @@ namespace MoodAnalyzerTest
             string actual = Happymood.MoodMessage();
             Assert.AreEqual(expected, actual);
         }
+        //Negative test case for Happy mood
         [Test]
         public void givenMessage_WhenSad_ShouldReturnHappy()
         {
@@ -35,6 +38,39 @@ namespace MoodAnalyzerTest
             string expected = "Happy";
             string actual = anymood.MoodMessage();
             Assert.AreEqual(expected, actual);
+        }
+        //Test for Null message
+        [Test]
+        public void givenMessage_with_Null()
+        {
+            MoodAnalyserProgram nullObj = new MoodAnalyserProgram(null);
+            try
+            {
+                
+                nullObj.MoodMessage();
+            }
+            catch(MoodAnalyserCustomException e)
+            {
+                string expected = "Mood Can not be Null";
+                Assert.AreEqual(expected, e.Message);
+            }
+        }
+        //test for empty message
+        [Test]
+        public void givenMessage_with_Empty()
+        {
+            string empty = "";
+            MoodAnalyserProgram nullObj = new MoodAnalyserProgram(empty);
+            try
+            {
+
+                nullObj.MoodMessage();
+            }
+            catch (MoodAnalyserCustomException e)
+            {
+                string expected = "Mood Can not be empty";
+                Assert.AreEqual(expected, e.Message);
+            }
         }
     }
 }
