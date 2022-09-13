@@ -1,4 +1,5 @@
 using MoodAnalyser;
+
 namespace MoodAnalyzerTest
 {
     public class Tests
@@ -72,5 +73,14 @@ namespace MoodAnalyzerTest
                 Assert.AreEqual(expected, e.Message);
             }
         }
+        //Negative Test for Constructor found
+        [Test]
+        public void Negative_Test_Create_Object_with_Reflection()
+        {
+            object expected = new MoodAnalyserProgram();
+            object actual = MoodAnalyserFactory.CreatingObjectWithMethod("MoodAnalyser.MoodAnalyserProgra", "MoodAnalyserProgra");
+            expected.Equals(actual);
+        }
+        
     }
 }
