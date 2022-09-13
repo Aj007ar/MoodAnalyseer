@@ -116,5 +116,41 @@ namespace MoodAnalyzerTest
                 Assert.AreEqual(expected, actual.Message);
             }
         }
+        //Test for parameterzed constructor
+        [Test]
+        public void Given_reflection_for_Parameterized_constructor()
+        {
+            object expected = new MoodAnalyserProgram("Happy");
+            object actual = MoodAnalyserFactory.CreateObjectForMoodAnalyse("MoodAnalyser.MoodAnalyserProgram", "MoodAnalyserProgram");
+            actual.Equals(expected);
+        }
+        //Negative Test for Class Not found
+        [Test]
+        public void Negative_Test_for_Reflection_ClassNotFound()
+        {
+            object expected = new MoodAnalyserProgram("Happy");
+            try
+            {
+                object actual = MoodAnalyserFactory.CreateObjectForMoodAnalyse("MoodAnalyser.MoodAnalyserProgra", "MoodAnalyserProgram");
+            }
+            catch (MoodAnalyserCustomException actual)
+            {
+                actual.Equals(expected);
+            }
+        }
+        //Negative Test for Constructor Not found
+        [Test]
+        public void Negative_Test_for_Reflection_ConstructorNotFound()
+        {
+            object expected = new MoodAnalyserProgram("Happy");
+            try
+            {
+                object actual = MoodAnalyserFactory.CreateObjectForMoodAnalyse("MoodAnalyser.MoodAnalyserProgram", "MoodAnalyserProgra");
+            }
+            catch (MoodAnalyserCustomException actual)
+            {
+                actual.Equals(expected);
+            }
+        }
     }
 }
